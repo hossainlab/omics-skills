@@ -50,17 +50,17 @@ Clone the repository into your Claude skills directory.
 **Project-level** (available in one project):
 
 ```bash
-git clone https://github.com/jubayer-hossain/omics-skills.git .claude/skills/omics-skills
+git clone https://github.com/hossainlab/omics-skills.git .claude/skills/omics-skills
 ```
 
 **User-level** (available everywhere):
 
 ```bash
 # macOS / Linux
-git clone https://github.com/jubayer-hossain/omics-skills.git ~/.claude/skills/omics-skills
+git clone https://github.com/hossainlab/omics-skills.git ~/.claude/skills/omics-skills
 
 # Windows (PowerShell)
-git clone https://github.com/jubayer-hossain/omics-skills.git $env:USERPROFILE\.claude\skills\omics-skills
+git clone https://github.com/hossainlab/omics-skills.git $env:USERPROFILE\.claude\skills\omics-skills
 ```
 
 Claude Code auto-discovers skills placed under a `skills/` directory. Restart your session or run `/skills` to confirm they are loaded.
