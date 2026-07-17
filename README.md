@@ -29,6 +29,7 @@ Covered (and planned) domains include:
 | [bulk-rnaseq-counts-to-de-deseq2](skills/bulk-rnaseq-counts-to-de-deseq2) | Transcriptomics | Differential expression on bulk RNA-seq counts with DESeq2 (R): design formulas, LFC shrinkage, VST/rlog, QC plots, result extraction and export | ✅ |
 
 > This table is updated as each skill lands. See the [Roadmap](#roadmap) for what's next.
+> Per-skill documentation lives in [`docs/`](docs/).
 
 ## What is a skill?
 
