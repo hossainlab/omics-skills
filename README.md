@@ -25,7 +25,7 @@ Covered (and planned) domains include:
 
 | Skill | Domain | Description | Status |
 |-------|--------|-------------|--------|
-| _First skill coming soon_ | — | — | 🚧 |
+| [omics-dataset-retrieval](skills/omics-dataset-retrieval) | Data retrieval | Retrieve, deduplicate, classify, and relevance-audit public omics datasets for a disease, gene, or process across 25+ repositories (GEO, SRA, ArrayExpress, PRIDE, OmicsDI, CELLxGENE, GDC/TCGA, ENCODE, …) | ✅ |
 
 > This table is updated as each skill lands. See the [Roadmap](#roadmap) for what's next.
 
@@ -87,7 +87,8 @@ You can also invoke a skill by name:
 
 ## Roadmap
 
-- [ ] First skill: transcriptomics — bulk RNA-seq differential expression
+- [x] Omics dataset retrieval — catalog public datasets across 25+ repositories
+- [ ] Transcriptomics — bulk RNA-seq differential expression
 - [ ] Single-cell RNA-seq QC and clustering
 - [ ] Variant annotation and filtering
 - [ ] Pathway and enrichment analysis
