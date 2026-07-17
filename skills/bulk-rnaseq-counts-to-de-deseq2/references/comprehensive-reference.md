@@ -1,15 +1,3 @@
----
-name: bulk-rnaseq-counts-to-de-deseq2
-description: >-
-  Run differential expression analysis on bulk RNA-seq count data with DESeq2 (R).
-  Covers DESeqDataSet construction from a count matrix, tximport (Salmon/Kallisto),
-  featureCounts, or SummarizedExperiment; pre-filtering; design formulas (simple,
-  batch, paired, interaction, multi-factor, LRT); result extraction by coefficient
-  or contrast; log-fold-change shrinkage (apeglm/ashr); VST/rlog transformations;
-  and exporting significant genes. Use when the user has RNA-seq counts and wants
-  differential expression, DE genes, volcano/MA inputs, or a DESeq2 workflow.
----
-
 # DESeq2 Comprehensive Reference
 
 Complete code patterns for DESeq2 differential expression analysis. Adapt these

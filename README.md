@@ -26,6 +26,7 @@ Covered (and planned) domains include:
 | Skill | Domain | Description | Status |
 |-------|--------|-------------|--------|
 | [omics-dataset-retrieval](skills/omics-dataset-retrieval) | Data retrieval | Retrieve, deduplicate, classify, and relevance-audit public omics datasets for a disease, gene, or process across 25+ repositories (GEO, SRA, ArrayExpress, PRIDE, OmicsDI, CELLxGENE, GDC/TCGA, ENCODE, …) | ✅ |
+| [bulk-rnaseq-counts-to-de-deseq2](skills/bulk-rnaseq-counts-to-de-deseq2) | Transcriptomics | Differential expression on bulk RNA-seq counts with DESeq2 (R): design formulas, LFC shrinkage, VST/rlog, QC plots, result extraction and export | ✅ |
 
 > This table is updated as each skill lands. See the [Roadmap](#roadmap) for what's next.
 
@@ -88,7 +89,7 @@ You can also invoke a skill by name:
 ## Roadmap
 
 - [x] Omics dataset retrieval — catalog public datasets across 25+ repositories
-- [ ] Transcriptomics — bulk RNA-seq differential expression
+- [x] Transcriptomics — bulk RNA-seq differential expression (DESeq2)
 - [ ] Single-cell RNA-seq QC and clustering
 - [ ] Variant annotation and filtering
 - [ ] Pathway and enrichment analysis
